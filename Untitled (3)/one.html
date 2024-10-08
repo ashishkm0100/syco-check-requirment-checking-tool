@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./one.css" />
+    <link rel="stylesheet" href="./one1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gurajada:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre Barcode 39 Text:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kaisei HarunoUmi:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre Caslon Display:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lilita One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Impact:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geo:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@300;400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <div class="figma-parent"></div>
+      <section class="rectangle-parent">
+        <img
+          class="rectangle-icon"
+          loading="lazy"
+          alt=""
+          src="./public/rectangle@2x.png"
+        />
+
+        <div class="book-an-appointment"></div>
+      </section>
+      <div class="process-flow">
+        <div class="process-steps">
+          <div class="identifying-hardware">Identifying Hardware</div>
+          <div class="step-indicators">
+            <div class="pick-a-date-and-time-that-is-a"></div>
+            <div class="forgot-password"></div>
+          </div>
+        </div>
+        <div class="checking-os-parent">
+          <div class="checking-os">Checking Os</div>
+          <div class="enter-your-credentials-to-acce-parent">
+            <div class="enter-your-credentials-to-acce"></div>
+            <div class="frame-child"></div>
+          </div>
+        </div>
+        <div class="detecting-system-drivers-parent">
+          <div class="detecting-system-drivers">Detecting System Drivers</div>
+          <div class="welcome-back-parent">
+            <div class="welcome-back"></div>
+            <div class="frame-item"></div>
+          </div>
+        </div>
+        <div class="process-steps1">
+          <div class="validating-hardware">Validating hardware</div>
+          <div class="screenshotat-parent">
+            <div class="screenshotat"></div>
+            <div class="frame-inner"></div>
+          </div>
+        </div>
+        <div class="process-steps2">
+          <div class="preparing-suggestions">Preparing suggestions</div>
+          <div class="choose-from-a-list-of-expert-r-parent">
+            <div class="choose-from-a-list-of-expert-r"></div>
+            <div class="ellipse-div"></div>
+          </div>
+        </div>
+      </div>
+      <div class="here-your-results-parent">
+        <div class="here-your-results">Here Your Results</div>
+        <div class="result-indicators">
+          <div class="result-indicators-child" id="rectangle"></div>
+          <div class="result-indicators-item"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./component.html";
+        });
+      }
+      </script>
+  </body>
+</html>
